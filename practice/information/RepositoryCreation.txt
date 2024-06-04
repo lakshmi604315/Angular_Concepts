@@ -1,0 +1,42 @@
+<!-- How to create a repositiory and push your local changes to git
+
+
+Let's try signing up for GitHub using the correct link:
+
+1.Create a GitHub Account:
+
+Go to the GitHub website: https://github.com/
+Click on the "Sign up" button.
+Fill in the required information: username, email, and password.
+Choose a plan (you can start with the free plan).
+Complete the sign-up process by verifying your email address.
+
+
+Great! Now that you've completed the signup process for GitHub, let's proceed with creating a repository and pushing your code from your local machine to GitHub. Here's a step-by-step guide:
+
+2.Create a New Repository:
+
+Log in to your GitHub account.
+Click on the "+" icon in the top right corner and select "New repository".
+Enter a name for your repository.
+Optionally, add a description for your repository.
+Choose the visibility of your repository (public or private).
+Optionally, initialize the repository with a README file, .gitignore, or license.
+Click on the "Create repository" button.
+Initialize a Git Repository Locally:
+
+1.git init
+2.git add .
+3.git commit -m "Initial commit"
+4.git remote add origin <remote_repository_URL>
+5.git push -u origin master
+
+
+while doing commit you might get this error :
+
+so follow the below two steps :
+
+1.git config --global user.name "Your Name"
+2.git config --global user.email "you@example.com"
+
+then commit and remote add and finally push it works now.. -->
