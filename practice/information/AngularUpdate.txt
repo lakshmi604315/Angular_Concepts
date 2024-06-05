@@ -1,0 +1,3 @@
+lets first update the angular and module to angular 17
+
+ng update @angular/core@version @angular/cli@17
